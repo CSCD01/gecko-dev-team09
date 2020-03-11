@@ -23,6 +23,12 @@ After cloning this repo:
 - curl https://hg.mozilla.org/mozilla-central/raw-file/default/python/mozboot/bin/bootstrap.py > bootstrap.py && python bootstrap.py
 
 This repo has the 3 out of the 5 issues implemented as outlined in our deliverable 2.
+- Issue 1
+  - https://github.com/mozilla/gecko-dev/commit/f11a8669892d8301b7ee4728f044ec161aa100cb
+- Issue 2
+  - https://github.com/CSCD01/gecko-dev-team09/commit/ebea7ea2abb4e75d730cf797ea061c140333056d
+- Issue 3
+  - https://github.com/CSCD01/gecko-dev-team09/commit/45693634c36d3f73fddd0ba9b5e147dfaf4b5fa2
 
 
 
@@ -43,7 +49,11 @@ Building:
 - run ./mach build
 - run ./mach run
     
-If you wish to see our implemented issues please checkout the corresponding changesets on mercurial:
-- Issue 1: 516614:ad041092e560 (Patch has already been accepted and is on the live version, so checking this would be unnecessary)
+These are our issues with the corresponding revisions on mercurial:
+- Issue 1: 516614:ad041092e560 
+  - https://hg.mozilla.org/integration/autoland/rev/e01d0f2150c9
+  - (Patch has already been accepted and is on the live version, so checking this would be unnecessary)
 - Issue 2: 517069:f38f17bbbabe
+  - https://phabricator.services.mozilla.com/differential/diff/242741/changesets/
 - Issue 3: 518129:590212a8f409
+  - (Another user's patch was accepted for this issue. You can see our implementation of this one in the github link above.)
