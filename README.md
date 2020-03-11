@@ -1,25 +1,25 @@
 How to build:
 
-    Make sure that you have the required dependencies:
-    Mac:
+   Make sure that you have the required dependencies:
+   Mac:
     - https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Mac_OS_X_Prerequisites
     Windows:
     - https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Windows_Prerequisites
     Linux:
     - https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Linux_Prerequisites
 
-    After cloning this repo:
-        - cd into the root folder of this repo
-        - run ./mach bootstrap
-           - follow on screen instructions and select build for Firefox desktop (option 2)
-        - run ./mach configure
-        - run ./mach build
-        - run ./mach run
+   After cloning this repo:
+    - cd into the root folder of this repo
+    - run ./mach bootstrap
+       - follow on screen instructions and select build for Firefox desktop (option 2)
+    - run ./mach configure
+    - run ./mach build
+    - run ./mach run
         
-      *Note if the bootstrap command fails on Mac try the following command instead:
-      - curl https://hg.mozilla.org/mozilla-central/raw-file/default/python/mozboot/bin/bootstrap.py > bootstrap.py && python bootstrap.py
+  *Note if the bootstrap command fails on Mac try the following command instead:
+  - curl https://hg.mozilla.org/mozilla-central/raw-file/default/python/mozboot/bin/bootstrap.py > bootstrap.py && python bootstrap.py
         
-    This repo has the 3 out of the 5 issues implemented as outlined in our deliverable 2.
+This repo has the 3 out of the 5 issues implemented as outlined in our deliverable 2.
 
 
 
