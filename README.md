@@ -1,10 +1,13 @@
 # How to build:
 
 Make sure that you have the required dependencies:
+
 Mac:
 - https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Mac_OS_X_Prerequisites
+
 Windows:
 - https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Windows_Prerequisites
+
 Linux:
 - https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Linux_Prerequisites
 
@@ -42,5 +45,5 @@ Building:
     
 If you wish to see our implemented issues please checkout the corresponding changesets on mercurial:
 - Issue 1: 516614:ad041092e560 (Patch has already been accepted and is on the live version, so checking this would be unnecessary)
-- Issue 2:
-- Issue 3: 517069:f38f17bbbabe
+- Issue 2: 517069:f38f17bbbabe
+- Issue 3: 518129:590212a8f409
