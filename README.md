@@ -57,3 +57,13 @@ These are our issues with the corresponding revisions on mercurial:
   - https://phabricator.services.mozilla.com/differential/diff/242741/changesets/
 - Issue 3: 518129:590212a8f409
   - (Another user's patch was accepted for this issue. You can see our implementation of this one in the github link above.)
+  
+  
+  
+# Project Feature
+To check out our implemented project feature please check out the mozilla central project using mercurial using the steps above and checkout our revisions using the following command:
+- hg update -r 520905
+
+Official threads pertaining to our feature are found here:
+- https://bugzilla.mozilla.org/show_bug.cgi?id=1528288
+- https://phabricator.services.mozilla.com/D68708#change-yXY2hZewHp0D
